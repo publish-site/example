@@ -27,7 +27,7 @@ jobs:
       - run: rm -rf .git/
 
       - name: Publish
-        uses: publish-site/action@PRE2
+        uses: publish-site/action@INDEV
         with:
           dry_run: ${{ inputs.dry_run }}
           dir: ./

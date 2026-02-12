@@ -1,17 +1,29 @@
-# Welcome to publishment workflow documentation. 
+# Main
 
-For a initial setup, go to [quick start](quick-start.md).
+Welcome to publishment workflow documentation. 
+For a initial setup, go to [quick start](quick-start.md).  
 
-## Commands
+## Tree  
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+There are 3 main parts of this documentation:  
+* [Quick Start Guide](quick-start.md)
+* [Backend configuration](backend.md)
+* [Action configuration](action.md)
 
-## Project layout
+## TO DO
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+### Backend
+
+* **Limit amounts of connection** (Dos risk) [HIGH PRIORITY]
+* Add optional features to container through configuration such as PHP [Low]
+* Logging [Low]
+
+### Action
+
+* Verification of server authenticity (confidentiality) [Mid]
+
+### Documentation
+
+* Write docs for the action and backend
+
+## Credits

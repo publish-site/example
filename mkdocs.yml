@@ -1,3 +1,4 @@
 site_name: Publish Site
 site_url: https://publish-site.rvid.eu/
-repo_url: https://github.com/publish-site/
+not_in_nav: |
+  /index.md

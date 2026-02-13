@@ -10,8 +10,8 @@ nav:
   - Home: index.md
   - Quick Start: quick-start.md
   - Configuration:
-      - Backend: backend.md
-      - GitHub Action: action.md
+      - Backend: config/backend.md
+      - GitHub Action: config/action.md
   - Other:
     - to-do.md
     - credits.md

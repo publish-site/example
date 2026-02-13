@@ -8,8 +8,8 @@ For a initial setup, go to [quick start guide](quick-start.md).
 There are 3 main parts of this documentation:  
 
 * [Quick Start Guide](quick-start.md)
-* [Backend configuration](backend.md)
-* [Action configuration](action.md)
+* [Backend configuration](config/backend.md)
+* [Action configuration](config/action.md)
 
 ## LIMITATIONS
 

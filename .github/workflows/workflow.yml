@@ -22,7 +22,7 @@ jobs:
       - run: cp pki.sh site/
 
       - name: Download minify binary
-        run: curl https://github.com/tdewolff/minify/releases/download/v2.24.8/minify_linux_amd64.tar.gz -o minify.tar.gz && tar -xzvf minify.tar.gz
+        run: wget https://github.com/tdewolff/minify/releases/download/v2.24.8/minify_linux_amd64.tar.gz && tar -xzvf minify_linux_amd64.tar.gz
 
       - run: ./minify -r -o out/ site/ 
 

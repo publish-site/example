@@ -15,6 +15,13 @@ You can drop this into your already existing workflow.
 ```
 **Make sure to replace URL and dir with the right entries**  
 
+??? Dependencies
+    Debian:
+    ```
+    sudo apt install docker.io docker-cli docker-compose
+    ```
+    For other distributions there are similar package names!
+
 ??? "Example workflow"
     Place this file in `.github/workflows/workflow.yml`. It will trigger whenever you push.  
 
